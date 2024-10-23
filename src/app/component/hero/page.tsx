@@ -11,19 +11,8 @@ import { SlSocialDribbble } from "react-icons/sl";
 
 import { IoLogoGithub } from "react-icons/io";
 import Link from "next/link";
-import { useState } from "react";
+function Hero () {
 
-
-
-
-
-
-const Hero = () => {
-    const [skewed, setSkewed] = useState(false);
-
-    const handleClick = () => {
-        setSkewed(true);
-    };
 
     return (
 
@@ -37,7 +26,6 @@ const Hero = () => {
 
                 <div className="image mx-4 right-0 md:justify-between sm:hidden">
                     <Image
-                        onClick={handleClick}
                         src={HeroImage}
                         alt="hero"
                         width={200}
@@ -85,7 +73,6 @@ const Hero = () => {
 
             <div className="hidden sm:block ">
                 <Image
-                    onClick={handleClick}
                     src={HeroImage}
                     alt="hero"
                     width={500}
