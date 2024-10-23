@@ -13,8 +13,8 @@ export default function Navber() {
     };
 
     return (
-        <div className="fixed flex flex-col sm:flex-row text-white font-bold px-4 py-2 bg-slate-950">
-            <div className='w-28 justify-center m-auto xl:ml-16 sm:ml-0'>
+        <div className=" sm:fixed flex flex-col sm:flex-row text-white font-bold px-4 py-2 bg-purple-950">
+            <div className=' w-28 justify-center m-auto xl:ml-16 sm:ml-0'>
                 <Image src={image} alt="logo" />
             </div>
             <div className='hidden lg:block sm:pt-4 xl:ml-4 2xl:mr-48'>
@@ -50,7 +50,7 @@ export default function Navber() {
                     className="border-b-2 border-transparent hover:border-white transition duration-700 ease-in-out delay-75">Contect</Link>
 
             </nav>
-            <button className='justufy-center m-auto sm:text-sm sm:p-1 sm:ml-14 sm:m-2 md:ml-16 2xl:ml-32 xl:mt-2 
+            <button className='ml-auto justify-center my-8 m-auto sm:text-sm sm:p-1 sm:ml-14 sm:m-2 md:ml-16 2xl:ml-32 xl:mt-2 
             xl:mr-24 mt-4 border rounded-full w-40 h-12 hover:text-white hover:bg-purple-800 text-purple-800 border-purple-800 sm:text-12'>
                 Hire me!
             </button>

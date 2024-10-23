@@ -16,7 +16,7 @@ function Hero () {
 
     return (
 
-    <main className="text-white bg-gray-900 py-40">
+    <main className="text-white bg-gray-900 py-24">
         <div className="mx-12 sm:ml-6  pt-6 sm:grid sm:grid-cols-2 gap-0 lg:py-12  xl:ml-24 ">
             <div>
                 <span className=" text-purple-300 font-bold text-2xl leading-relaxed translate-x-4 sm:text-1xl xl:text- xl:text-4xl">I am Areej</span>
@@ -30,7 +30,7 @@ function Hero () {
                         alt="hero"
                         width={200}
                         height={200}
-                        className="h-48 w-52 absolute rounded-3xl my-8 sm:w-72 
+                        className="h-48 w-52 rounded-3xl my-8 sm:w-72 
                         border-2 border-purple-800 sm:h-[18rem] 
                        m-auto " />
                 </div>

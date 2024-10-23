@@ -1,7 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
-import Image1 from "../../../../public/webflow@2x-scaled-1.webp"
-import Image2 from "../../../../public/modern-website-design-examples.jpg"
+import Image1 from "../../../../public/project one.jpg"
+import Image2 from "../../../../public/project two.webp"
+import Image3 from "../../../../public/project three.jpg"
+import Image4 from "../../../../public/project four.webp"
 
 
 function Work() {
@@ -55,7 +57,7 @@ function Work() {
                 xl:w-[45%]  h-56  bg-gray-900 hover:bg-purple-700 text-white 
                 transition duration-300 ease-in-out">
                     <Image
-                        src={Image1}
+                        src={Image2}
                         alt="Description of project 2"
                         width={400}
                         height={700}
@@ -71,7 +73,7 @@ function Work() {
                 xl:w-[45%] h-56  bg-gray-900 hover:bg-purple-700 text-white 
                 transition duration-300 ease-in-out">
                     <Image
-                        src={Image1}
+                        src={Image3}
                         alt="Description of project 2"
                         width={400}
                         height={700}
@@ -87,7 +89,7 @@ function Work() {
                 xl:w-[45%] bg-gray-900 hover:bg-purple-700 text-white 
                 transition duration-300 ease-in-out">
                     <Image
-                        src={Image1}
+                        src={Image4}
                         alt="Description of project 2"
                         width={400}
                         height={700}
