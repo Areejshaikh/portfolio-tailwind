@@ -1,0 +1,39 @@
+/* styles/Navbar.module.css */
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.button {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .button {
+        display: none; /* Choti screen par button chhupa do */
+    /* }
+    .navbar {
+        display: flex; /* Navbar ko flex bana do */
+    /* } */
+/* } * */
+
+/* Sevices ki heading */
+
+/* .nav-item {
+    animation-name: fram;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+
+}
+
+@keyframes fram {
+    from{
+width: 20px;
+    }
+    to{
+width: 80px;
+    }
+} */ */
