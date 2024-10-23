@@ -1,17 +1,17 @@
 
 function Contect() {
     return (
-        <section className="bg-purple-900 body-font relative text-white">
+        <section id="contect" className="bg-purple-900 body-font text-white">
             <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-                <div className="lg:w-2/3 md:w-1/2 bg-purple-950 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <div className="lg:w-2/3 md:w-1/2 bg-purple-950 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start">
 
                     <div className="absolute inset-0">
-                        <h3 className="lg:text-4xl lg:m-12">Lets Work Together</h3>
-                        <p className="lg:m-12 text-lg leading-relaxed ">
+                        <h3 className="lg:text-4xl lg:m-12 m-4">Lets Work Together</h3>
+                        <p className="lg:m-12 text-lg leading-relaxed m-4">
                             I design and code beautifully simple things and i love what i do. Just simple like that!
                         </p>
                     </div>
-                    <div className="bg-purple-700 relative flex flex-wrap py-24 rounded shadow-md">
+                    <div className="bg-purple-700  flex flex-wrap mt-28 lg:py-12  rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-white tracking-widest text-lg">
                                 ADDRESS
